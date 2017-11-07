@@ -221,3 +221,85 @@ section.services div.standard p,
 section.services div.standard h3 {
   background: #555;
 }
+
+/* Responsive */
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+  header div.logo {
+    width: 100%;
+    float: none;
+  }
+  header nav {
+    width: 100%;
+    float: none;
+  }
+  header nav ul li:first-child {
+    margin-left: 0;
+  }
+  /* End Navigation */
+
+  section.second-section form input {
+    padding: 2px 4px;
+  }
+  /* End Second section */
+
+  section.third-section img {
+    width: 100%;
+    float: none;
+    display: block;
+  }
+  /* End Thiird section */
+
+  footer p {
+    font-size: 1205%%;
+  }
+  /* End Footer */
+  /* End Home */
+
+  section.aboutus div {
+    width: 100%;
+    float: none;
+  }
+  section.aboutus div img {
+    width: 90%%;
+    margin: 8% auto 2% auto;
+  }
+  section.aboutus div p {
+    width: 90%;
+  }
+  /* End About Us */
+
+  section.services div {
+    width: 90%;
+    margin: 4% auto 2%% auto;
+    float: none;
+  }
+  /* End Services */
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769)
+{
+    header nav ul li:first-child {
+      margin-left: 0;
+    }
+    section.aboutus {
+      padding: 5% 0;
+    }
+    section.aboutus div img {
+      width: 90%;
+    }
+    section.aboutus div p {
+      width: 90%;
+    }
+    section.services div {
+      width: 31.333%;
+      margin: 1%;
+      padding: 0;
+    }
+    section.services div ul {
+      width: 100%;
+    }
+
+}
